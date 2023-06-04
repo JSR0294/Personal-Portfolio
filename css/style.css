@@ -1,0 +1,58 @@
+/* =============== Common CSS =========================================== */
+.font-work{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.font-pop{
+    font-family: 'Poppins', sans-serif;
+}
+
+.weight-l{
+    font-weight: 300;
+}
+
+.weight-r{
+    font-weight: 400;
+}
+
+.weight-m{
+    font-weight: 500;
+}
+
+.weight-sb{
+    font-weight: 600;
+}
+
+.font_size-12{
+    font-size: 12px;
+}
+
+.primary-color{
+    background-color: #A53DFF;
+}
+
+ul,
+li{
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.custom-btn{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    padding: 12px 24px;
+}
+
+.custom-btn a{
+    color: #fff;
+}
+/* ======================================================================================== */
+
