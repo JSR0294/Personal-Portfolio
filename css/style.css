@@ -1,4 +1,6 @@
-/* =============== Common CSS =========================================== */
+/* =======================================
+Common CSS 
+======================================= */
 .font-work{
     font-family: 'Work Sans', sans-serif;
 }
@@ -35,6 +37,11 @@
 
 .font_size-16{
     font-size: 16px;
+    line-height: 24px;
+}
+
+.font_size-18{
+    font-size: 18px;
     line-height: 24px;
 }
 
@@ -75,6 +82,7 @@
 ul,
 li{
     padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -84,6 +92,7 @@ a{
 }
 
 .custom-btn{
+    display: inline-block;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -95,11 +104,20 @@ a{
 .custom-btn a{
     color: #fff;
 }
-/* ======================================================================================== */
 
-/* =============== Navbar CSS =========================================== */
-nav{
+/* body{
+    background-color: black;
+} */
+/* =======================================
+======================================= */
+
+/* =======================================
+Navbar CSS 
+======================================= */
+.nav{
     top: 20px;
+    position: absolute;
+    width: 100%;
 }
 
 nav ul li{
@@ -118,3 +136,51 @@ nav ul li a{
 nav ul li a:hover{
     color:#A53DFF !important;
 }
+/* =======================================
+======================================= */
+
+/* =======================================
+Banner CSS 
+======================================= */
+.banner{
+    padding: 222px 0 190px;
+}
+
+.banner .banner_content{
+    margin-top: 140px;
+}
+
+.banner .banner_content h1{
+    width: 460px;
+    color: #132238;
+}
+
+.banner .banner_content p{
+    width: 650px;
+    color: #556070;
+    margin: 24px 0;
+}
+
+.banner .banner_content .banner_info{
+    margin-top: 140px;
+    background: rgba(237, 216, 255, 0.5);
+    border-radius: 6px;
+}
+
+.banner .banner_content .banner_info ul{
+    display: flex;
+    text-align: center;
+}
+
+.banner .banner_content .banner_info .banner_item{
+    width: 33%;
+    padding: 17px 0;
+    border-right: 1.5px solid #FFFFFF;
+}
+
+.banner .banner_content .banner_info .banner_item:last-child{
+    border: none;
+}
+
+/* =======================================
+======================================= */
