@@ -1,81 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
     <!-- =================================================================
     ========================== Google Font =========================== -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Work+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- =================================================================
+    ================================================================== -->
+
+    <!-- =================================================================
+    ========================== Google Font =========================== -->
+    <script
+      src="https://kit.fontawesome.com/72e10b0056.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- =================================================================
     ================================================================== -->
 
     <!-- =================================================================
     ============================ BS Link ============================= -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <!-- =================================================================
     ================================================================== -->
 
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-</head>
-<body>
-  <!-- =================================================================
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <!-- =================================================================
   ============================ Navbar ============================== -->
     <nav class="navbar navbar-expand-xl nav">
-        <div class="container">
-          <div class="logo">
-            <picture>
-                <img src="./image/Logo.webp" alt="logo">
-            </picture>
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse custom_collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
-              <li class="nav-item">
-                <a class="nav-link font-work weight-m font_size-16" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link font-work weight-m font_size-16" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link font-work weight-m font_size-16" href="#">Process</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link font-work weight-m font_size-16" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link font-work weight-m font_size-16" href="#">Services</a>
-              </li>
-            </ul>
-            <div class="custom-btn primary-color">
-                <a href="#" class="font-work
-                 weight-sb font_size-16">Contact</a>
-            </div>
+      <div class="container">
+        <div class="logo">
+          <picture>
+            <img src="./image/Logo.webp" alt="logo" />
+          </picture>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse custom_collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
+            <li class="nav-item">
+              <a
+                class="nav-link font-work weight-m font_size-16"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-work weight-m font_size-16" href="#"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-work weight-m font_size-16" href="#"
+                >Process</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-work weight-m font_size-16" href="#"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-work weight-m font_size-16" href="#"
+                >Services</a
+              >
+            </li>
+          </ul>
+          <div class="custom-btn primary-color">
+            <a href="#" class="font-work weight-sb font_size-16">Contact</a>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
     <!-- =================================================================
     ================================================================== -->
 
     <!-- =================================================================
     ============================ Banner ============================== -->
-      <section class="banner">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-6">
-              <div class="banner_content">
-                <h1 class="font-work weight-sb font_size-72">Hello, I’m
-                  JOY SARKAR</h1>
-                <p class="font-work weight-r font_size-18">I am MERN Stack Developer and AWS Solution Architect and want to add a DevOps with this title. I am also an Instructor. Guide more than 2500 students in 5years.</p>
-                <div class="custom-btn primary-color">
-                  <a href="#" class="font-work
-                   weight-sb font_size-16">Say Hello!</a>
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6">
+            <div class="banner_content">
+              <h1 class="font-work weight-sb font_size-72">
+                Hello, I’m JOY SARKAR
+              </h1>
+              <p class="font-work weight-r font_size-18">
+                I am MERN Stack Developer and AWS Solution Architect and want to
+                add a DevOps with this title. I am also an Instructor. Guide
+                more than 2500 students in 5years.
+              </p>
+              <div class="custom-btn primary-color">
+                <a href="#" class="font-work weight-sb font_size-16"
+                  >Say Hello!</a
+                >
               </div>
               <div class="banner_info">
                 <ul>
@@ -85,32 +131,70 @@
                   </li>
                   <li class="banner_item">
                     <h4 class="font-work weight-sb font_size-32">550+</h4>
-                    <h5 class="font-work weight-r font_size-16">Project Completed</h5>
+                    <h5 class="font-work weight-r font_size-16">
+                      Project Completed
+                    </h5>
                   </li>
                   <li class="banner_item">
                     <h4 class="font-work weight-sb font_size-32">350+</h4>
-                    <h5 class="font-work weight-r font_size-16">Happy Client</h5>
+                    <h5 class="font-work weight-r font_size-16">
+                      Happy Client
+                    </h5>
                   </li>
                 </ul>
               </div>
-              </div>
             </div>
-            <div class="col-xl-6">
-              <div class="banner_img">
-                <picture>
-                  <img src="./image/banner_img.webp" alt="banner_img">
-                </picture>
-              </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="banner_img">
+              <picture>
+                <img src="./image/banner_img.webp" alt="banner_img" />
+              </picture>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     <!-- =================================================================
     ================================================================== -->
+
+    <!-- =================================================================
+    ============================ About =============================== -->
+    <section class="about">
+      <div class="container">
+        <div class="custom-bg">
+          <div class="row">
+            <div class="col-xl-6">
+              <div class="about_img">
+                <picture>
+                  <img src="./image/sample.webp" alt="about_img" />
+                </picture>
+                <div class="social_links">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  <i class="fa-brands fa-behance"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div class="about_content"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =================================================================
+    ================================================================== -->
+
     <!-- =================================================================
     =========================== BS Script ============================ -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
     <!-- =================================================================
     ================================================================== -->
-</body>
+  </body>
 </html>

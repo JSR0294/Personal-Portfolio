@@ -1,140 +1,140 @@
 /* =======================================
 Common CSS 
 ======================================= */
-.font-work{
-    font-family: 'Work Sans', sans-serif;
+.font-work {
+  font-family: "Work Sans", sans-serif;
 }
 
-.font-pop{
-    font-family: 'Poppins', sans-serif;
+.font-pop {
+  font-family: "Poppins", sans-serif;
 }
 
-.weight-l{
-    font-weight: 300;
+.weight-l {
+  font-weight: 300;
 }
 
-.weight-r{
-    font-weight: 400;
+.weight-r {
+  font-weight: 400;
 }
 
-.weight-m{
-    font-weight: 500;
+.weight-m {
+  font-weight: 500;
 }
 
-.weight-sb{
-    font-weight: 600;
+.weight-sb {
+  font-weight: 600;
 }
 
-.font_size-12{
-    font-size: 12px;
-    line-height: 16px;
+.font_size-12 {
+  font-size: 12px;
+  line-height: 16px;
 }
 
-.font_size-14{
-    font-size: 14px;
-    line-height: 20px;
+.font_size-14 {
+  font-size: 14px;
+  line-height: 20px;
 }
 
-.font_size-16{
-    font-size: 16px;
-    line-height: 24px;
+.font_size-16 {
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.font_size-18{
-    font-size: 18px;
-    line-height: 24px;
+.font_size-18 {
+  font-size: 18px;
+  line-height: 24px;
 }
 
-.font_size-20{
-    font-size: 20px;
-    line-height: 24px;
+.font_size-20 {
+  font-size: 20px;
+  line-height: 24px;
 }
 
-.font_size-24{
-    font-size: 24px;
-    line-height: 24px;
+.font_size-24 {
+  font-size: 24px;
+  line-height: 24px;
 }
 
-.font_size-32{
-    font-size: 32px;
-    line-height: 40px;
+.font_size-32 {
+  font-size: 32px;
+  line-height: 40px;
 }
 
-.font_size-38{
-    font-size: 38px;
-    line-height: 50px;
+.font_size-38 {
+  font-size: 38px;
+  line-height: 50px;
 }
 
-.font_size-48{
-    font-size: 48px;
-    line-height: 56;
+.font_size-48 {
+  font-size: 48px;
+  line-height: 56;
 }
 
-.font_size-72{
-    font-size: 72px;
-    line-height: 84px;
+.font_size-72 {
+  font-size: 72px;
+  line-height: 84px;
 }
 
-.primary-color{
-    background-color: #A53DFF;
+.primary-color {
+  background-color: #a53dff;
 }
 
 ul,
-li{
-    padding: 0;
-    margin: 0;
-    list-style: none;
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.custom-btn{
-    display: inline-block;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    padding: 12px 24px;
+.custom-btn {
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 12px 24px;
 }
 
-.custom-btn a{
-    color: #fff;
+.custom-btn a {
+  color: #fff;
 }
 
-/* body{
-    background-color: black;
-} */
+body {
+  background-color: #eceef1;
+}
 /* =======================================
 ======================================= */
 
 /* =======================================
 Navbar CSS 
 ======================================= */
-.nav{
-    top: 20px;
-    position: absolute;
-    width: 100%;
+.nav {
+  top: 20px;
+  position: absolute;
+  width: 100%;
 }
 
-nav ul li{
-    padding: 12px 24px;
+nav ul li {
+  padding: 12px 24px;
 }
 
-nav ul li a{
-    color: #333;
-    transition: .3s;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -ms-transition: .3s;
-    -o-transition: .3s;
+nav ul li a {
+  color: #333;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
-nav ul li a:hover{
-    color:#A53DFF !important;
+nav ul li a:hover {
+  color: #a53dff !important;
 }
 /* =======================================
 ======================================= */
@@ -142,45 +142,102 @@ nav ul li a:hover{
 /* =======================================
 Banner CSS 
 ======================================= */
-.banner{
-    padding: 222px 0 190px;
+.banner {
+  padding: 222px 0 190px;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.banner .banner_content{
-    margin-top: 140px;
+.banner .banner_content {
+  margin-top: 140px;
 }
 
-.banner .banner_content h1{
-    width: 460px;
-    color: #132238;
+.banner .banner_content h1 {
+  width: 460px;
+  color: #132238;
 }
 
-.banner .banner_content p{
-    width: 650px;
-    color: #556070;
-    margin: 24px 0;
+.banner .banner_content p {
+  width: 650px;
+  color: #556070;
+  margin: 24px 0;
 }
 
-.banner .banner_content .banner_info{
-    margin-top: 140px;
-    background: rgba(237, 216, 255, 0.5);
-    border-radius: 6px;
+.banner .banner_content .banner_info {
+  margin-top: 140px;
+  background: rgba(237, 216, 255, 0.5);
+  border-radius: 6px;
 }
 
-.banner .banner_content .banner_info ul{
-    display: flex;
-    text-align: center;
+.banner .banner_content .banner_info ul {
+  display: flex;
+  text-align: center;
 }
 
-.banner .banner_content .banner_info .banner_item{
-    width: 33%;
-    padding: 17px 0;
-    border-right: 1.5px solid #FFFFFF;
+.banner .banner_content .banner_info .banner_item {
+  width: 33%;
+  padding: 17px 0;
+  border-right: 1.5px solid #ffffff;
 }
 
-.banner .banner_content .banner_info .banner_item:last-child{
-    border: none;
+.banner .banner_content .banner_info .banner_item:last-child {
+  border: none;
 }
 
 /* =======================================
 ======================================= */
+
+/* =======================================
+Banner CSS 
+======================================= */
+.about .custom-bg {
+  background-color: #fff;
+  padding: 112px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 36px 105px rgba(43, 56, 76, 0.1);
+  border-radius: 16px;
+}
+
+.about .custom-bg .about_img{
+  position: relative;
+}
+
+.about .custom-bg .social_links {
+  position: absolute;
+  bottom: -35px;
+  margin-left: 100px;
+  padding: 12px;
+  background-color: #fff;
+  box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.about .custom-bg .social_links i {
+  font-size: 18px;
+  color: #a53dff;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.about .custom-bg .social_links i:first-child {
+  padding: 15px 18px;
+}
+
+.about .custom-bg .social_links i:hover {
+  color: #fff;
+  background-color: #a53dff;
+}
