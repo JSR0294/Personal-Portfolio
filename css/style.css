@@ -262,8 +262,7 @@ About CSS
 
 .about .custom-bg .about_content .about_flex_btn .custom-download-btn{
   padding: 12px 24px;
-  /*display: inline-block;
-  */background-color: #fff;
+  background-color: #fff;
   border: 1px solid #a53dff;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -289,6 +288,7 @@ About CSS
 ======================================= */
 .work-process{
   margin-top: 160px;
+  margin-bottom: 140px;
 }
 
 .work-process .work_process_content{
@@ -305,12 +305,12 @@ About CSS
   color: #697484;
 }
 
-.work-process .custom_card_gap{
+.work-process .work_card_gap{
   row-gap: 28px;
   justify-content: space-between;
 }
 
-.work-process .custom_card{
+.work-process .work_card{
   padding: 32px;
   background: #FFFFFF;
   box-shadow: 32px 32px 124px rgba(43, 56, 76, 0.1);
@@ -318,7 +318,7 @@ About CSS
   width: 320px;
 }
 
-.work-process .custom_card picture img{
+.work-process .work_card picture img{
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -326,14 +326,145 @@ About CSS
   -o-border-radius: 5px;
 }
 
-.work-process .custom_card h3{
+.work-process .work_card h3{
   margin-top: 32px;
   margin-bottom: 12px;
   color: #132238;
   width: 260px;
 }
 
-.work-process .custom_card p{
+.work-process .work_card p{
   color: #556070;
+}
+
+/* =======================================
+======================================= */
+
+/* =======================================
+Portfolio CSS 
+======================================= */
+.portfolio{
+  margin-top: 100px;
+}
+
+.portfolio .portfolio_heading{
+  text-align: center;
+}
+
+.portfolio .portfolio_heading h2{
+  color: #132238;
+}
+
+.portfolio .portfolio_heading p{
+  color: #87909D;
+  width: 578px;
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 70px;
+}
+
+.portfolio .portfolio_card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+.portfolio .portfolio_card .portfolio_card_item{
+  width: 420px;
+  background: #FFFFFF;
+  border: 1px solid #E6E8EB;
+  box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
+  border-radius: 8px;
+}
+
+.portfolio .portfolio_card .portfolio_card_item .img picture img{
+  width: 100%;
+}
+
+.portfolio .portfolio_card .portfolio_card_item .portfolio_card_content{
+  padding: 32px;
+}
+
+.portfolio .portfolio_card .portfolio_card_item .portfolio_card_content h5{
+  color: #87909D;
+}
+
+.portfolio .portfolio_card .portfolio_card_item .portfolio_card_content h3{
+  color: #132238;
+}
+
+.portfolio .portfolio_card .portfolio_card_item .portfolio_card_content p{
+  margin-top: 12px;
+  margin-bottom: 20px;
+  color: #556070;
+}
+
+.portfolio .portfolio_card .portfolio_card_item .portfolio_card_content .case-study-btn{
+  display: inline-block;
+  padding: 12px 30px 12px 24px;
+  background-color: #fff;
+  border: 1px solid #a53dff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.portfolio .portfolio_card .portfolio_card_item .portfolio_card_content .case-study-btn a{
+  color: #a53dff;
+}
+
+.portfolio .portfolio_card .portfolio_card_item .portfolio_card_content .case-study-btn i{
+  margin-left: 12px;
+  color: #a53dff;
+  font-size: 16px;
+}
+
+.portfolio .portfolio_card .more_project{
+  margin: 50px auto 0;
+}
+
+/* =======================================
+======================================= */
+
+/* =======================================
+Lets Work Together CSS 
+======================================= */
+.lets_work_together{
+  background-color: #132238;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.lets_work_together .lets_work_together_content{
+  padding: 100px 0;
+}
+
+.lets_work_together .lets_work_together_content h2{
+  color: #fff;
+  width: 625px;
+  margin: auto;
+}
+
+.lets_work_together .lets_work_together_content .lwt{
+  padding: 12px 30px 12px 24px;
+  margin-top: 32px;
+}
+
+.lets_work_together .lets_work_together_content .lwt i{
+  margin-left: 12px;
+  font-size: 16px;
+}
+
+/* =======================================
+======================================= */
+
+/* =======================================
+What I Do? CSS 
+======================================= */
+.what_i_do{
+  margin-top: 150px;
 }
 
