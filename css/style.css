@@ -67,7 +67,7 @@ Common CSS
 
 .font_size-48 {
   font-size: 48px;
-  line-height: 56;
+  line-height: 56px;
 }
 
 .font_size-72 {
@@ -190,7 +190,7 @@ Banner CSS
 ======================================= */
 
 /* =======================================
-Banner CSS 
+About CSS 
 ======================================= */
 .about .custom-bg {
   background-color: #fff;
@@ -220,7 +220,7 @@ Banner CSS
   -o-border-radius: 5px;
 }
 
-.about .custom-bg .social_links i {
+.about .custom-bg .social_links a i {
   font-size: 18px;
   color: #a53dff;
   padding: 15px;
@@ -233,11 +233,107 @@ Banner CSS
   -o-border-radius: 5px;
 }
 
-.about .custom-bg .social_links i:first-child {
-  padding: 15px 18px;
-}
-
 .about .custom-bg .social_links i:hover {
   color: #fff;
   background-color: #a53dff;
 }
+
+.about .custom-bg .about_content{
+  margin-top: 65px;
+}
+
+.about .custom-bg .about_content h2{
+  color: #132238;
+}
+
+.about .custom-bg .about_content .custom_margin{
+  margin: 32px 0;
+  color: #87909D;
+}
+
+.about .custom-bg .about_content .custom_margin p{
+  color: #87909D;
+}
+
+.about .custom-bg .about_content .about_flex_btn{
+  display: flex;
+  column-gap: 24px;
+}
+
+.about .custom-bg .about_content .about_flex_btn .custom-download-btn{
+  padding: 12px 24px;
+  /*display: inline-block;
+  */background-color: #fff;
+  border: 1px solid #a53dff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.about .custom-bg .about_content .about_flex_btn .custom-download-btn a{
+  color: #a53dff;
+}
+
+.about .custom-bg .about_content .about_flex_btn .custom-download-btn a i{
+  margin-right: 12px;
+  color: #a53dff;
+}
+
+/* =======================================
+======================================= */
+
+/* =======================================
+About CSS 
+======================================= */
+.work-process{
+  margin-top: 160px;
+}
+
+.work-process .work_process_content{
+  margin: 182px 0;
+}
+
+.work-process .work_process_content h2{
+  color: #132238;
+}
+
+.work-process .work_process_content .custom_margin p{
+  margin-top: 24px;
+  width: 530px;
+  color: #697484;
+}
+
+.work-process .custom_card_gap{
+  row-gap: 28px;
+  justify-content: space-between;
+}
+
+.work-process .custom_card{
+  padding: 32px;
+  background: #FFFFFF;
+  box-shadow: 32px 32px 124px rgba(43, 56, 76, 0.1);
+  border-radius: 12px;
+  width: 320px;
+}
+
+.work-process .custom_card picture img{
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.work-process .custom_card h3{
+  margin-top: 32px;
+  margin-bottom: 12px;
+  color: #132238;
+  width: 260px;
+}
+
+.work-process .custom_card p{
+  color: #556070;
+}
+
