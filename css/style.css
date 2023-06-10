@@ -530,3 +530,66 @@ What I Do? CSS
 /* =======================================
 Services CSS 
 ======================================= */
+.services{
+  padding-top: 100px;
+}
+
+.services .services_heading{
+  text-align: center;
+}
+
+.services .services_heading h2{
+  color: #132238;
+}
+
+.services .services_heading p{
+  color: #87909D;
+  width: 578px;
+  margin: 20px auto;
+}
+
+.services .services_social_icon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.services .services_social_icon .social-icon a img{
+  width: 200px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.services .services_social_icon .social-icon a img:hover{
+  filter: none;
+  -webkit-filter: none;
+}
+
+.services .services_testimonial{
+  text-align: center;
+  margin-bottom: 158px;
+}
+
+.services .services_testimonial h2{
+  color: #132238;
+}
+
+
+.services .services_testimonial p{
+  color: #87909D;
+  width: 578px;
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 70px;
+}
+
+.services .services_review p{
+  color: #2B384C;
+  width: 872px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+/* =======================================
+======================================= */
