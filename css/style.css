@@ -360,7 +360,7 @@ About CSS
   -o-transition: .04s;
 }
 
-.work-process .work_process_card .work_card_item i:hover {
+.work-process .work_process_card .work_card_item:hover i{
   background-color: #A53DFF;
   color: #fff;
 }
