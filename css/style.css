@@ -315,36 +315,65 @@ About CSS
   color: #697484;
 }
 
-.work-process .work_card_gap{
-  row-gap: 28px;
+.work-process .work_process_card{
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  row-gap: 28px;
 }
 
-.work-process .work_card{
-  padding: 32px;
-  background: #FFFFFF;
-  box-shadow: 32px 32px 124px rgba(43, 56, 76, 0.1);
+.work-process .work_process_card .work_card_item{
+  padding: 25px;
+  width: 310px;
+  background-color: #fff;
   border-radius: 12px;
-  width: 320px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  transition: .04s;
+  -webkit-transition: .04s;
+  -moz-transition: .04s;
+  -ms-transition: .04s;
+  -o-transition: .04s;
 }
 
-.work-process .work_card picture img{
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+.work-process .work_process_card .work_card_item:hover{
+  box-shadow: 32px 32px 124px rgba(43, 56, 76, 0.1);
 }
 
-.work-process .work_card h3{
+.work-process .work_process_card .work_card_item .work_card_icon{
+  margin-top: 20px;
+}
+
+.work-process .work_process_card .work_card_item .work_card_icon i{
+  padding: 20px;
+  width: 75px;
+  font-size: 25px;
+  color: #A53DFF;
+  background: rgba(237, 216, 255, 0.5);
+  border-radius: 6px;
+  transition: .04s;
+  -webkit-transition: .04s;
+  -moz-transition: .04s;
+  -ms-transition: .04s;
+  -o-transition: .04s;
+}
+
+.work-process .work_process_card .work_card_item i:hover {
+  background-color: #A53DFF;
+  color: #fff;
+}
+
+.work-process .work_process_card .work_card_item h3{
   margin-top: 32px;
   margin-bottom: 12px;
   color: #132238;
-  width: 260px;
 }
 
-.work-process .work_card p{
+.work-process .work_process_card .work_card_item p{
   color: #556070;
+  width: 250px;
 }
 
 /* =======================================
