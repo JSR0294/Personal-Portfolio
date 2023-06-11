@@ -91,6 +91,10 @@ a {
   color: black;
 }
 
+address{
+  margin-bottom: 0;
+}
+
 .custom-btn {
   display: inline-block;
   border-radius: 5px;
@@ -99,6 +103,10 @@ a {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   padding: 12px 24px;
+}
+
+p{
+  margin: 0px;
 }
 
 .custom-btn a {
@@ -224,6 +232,8 @@ About CSS
   font-size: 18px;
   color: #a53dff;
   padding: 15px;
+  width: 48px;
+  text-align: center;
   cursor: pointer;
   background-color: #fff;
   border-radius: 5px;
@@ -584,12 +594,222 @@ Services CSS
   margin-bottom: 70px;
 }
 
-.services .services_review p{
+.services .services_testimonial .services_review p{
   color: #2B384C;
   width: 872px;
   margin: auto;
   margin-bottom: 24px;
 }
 
+.services .services_testimonial .services_review h4{
+  color: #000;
+}
+
+.services .services_testimonial .services_review h5{
+  color: #000;
+}
+
 /* =======================================
 ======================================= */
+
+/* =======================================
+Contact CSS 
+======================================= */
+.contact .custom_bg{
+  background-color: #fff;
+  padding: 88px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 59px 124px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  position: relative;
+  bottom: -40px;
+}
+
+.contact .contact_location{
+  margin-top: 35px;
+}
+
+.contact .contact_location .contact_location_item{
+  display: flex;
+  padding: 24px;
+  column-gap: 15px;
+  width: 335px;
+  align-items: center;
+  border-radius: 10px;
+  transition: .04s;
+  -webkit-transition: .04s;
+  -moz-transition: .04s;
+  -ms-transition: .04s;
+  -o-transition: .04s;
+}
+
+.contact .contact_location .contact_location_item:hover{
+  box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
+}
+
+.contact .contact_location .contact_location_item .location_icon i{
+  font-size: 16px;
+  color: #a53dff;
+  padding: 14px 15px;
+  background: rgba(237, 216, 255, 0.5);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: .04s;
+  -webkit-transition: .04s;
+  -moz-transition: .04s;
+  -ms-transition: .04s;
+  -o-transition: .04s;
+}
+
+.contact .contact_location .contact_location_item:hover i{
+  color: #fff;
+  background-color: #a53dff;
+}
+
+.contact .contact_location .contact_location_item .contact_info h6{
+  color: #424E60;
+  margin: 0;
+}
+
+.contact .contact_location .contact_location_item .contact_info address{
+  color: #132238;
+}
+
+.contact .contact_location .contact_location_item .contact_info a{
+  color: #132238;
+}
+
+.contact .contact_icons{
+  margin-top: 35px;
+  display: flex;
+  column-gap: 12px;
+}
+
+.contact .contact_icons .contact_icons_item a i{
+  padding: 15px;
+  text-align: center;
+  width: 48px;
+  color: #a53dff;
+  border-radius: 5px;
+  transition: .04s;
+  -webkit-transition: .04s;
+  -moz-transition: .04s;
+  -ms-transition: .04s;
+  -o-transition: .04s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.contact .contact_icons .contact_icons_item a i:hover{
+  color: #fff;
+  background-color: #a53dff;
+}
+
+.contact .contact_form_content{
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.contact .contact_form_content h3{
+  color: #87909D;
+}
+
+.contact .contact_form form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.contact .contact_form form input,textarea{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #E6E8EB;
+  padding-bottom: 14px;
+  resize: none;
+}
+
+.contact .contact_form form input:focus ,textarea:focus{
+  border-bottom-color: #a53dff;
+}
+
+.contact .contact_form form input::placeholder ,textarea::placeholder{
+  color: #697484;
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 24px;
+}
+
+.contact .contact_form form input:focus::placeholder ,textarea:focus::placeholder{
+  color: #a53dff;
+}
+
+.contact .contact_form form .contact_form_flex :first-child{
+  width: 40%;
+  margin-right: 24px;
+}
+
+.contact .contact_form form .contact_form_flex :last-child{
+  width: 54%;
+}
+
+.contact .contact_form form button{
+  width: 141px;
+  border: none;
+  outline: none;
+  padding: 12px 26px;
+  background: #A53DFF;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.contact .contact_form form button i{
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+/* ====================== Footer CSS ====================== */
+.contact footer{
+  background-color: #2B384C;
+  padding-top: 160px;
+  padding-bottom: 50px;
+}
+
+.contact footer .footer_align{
+  align-items: center;
+}
+
+.contact .footer_align .footer_menu ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact .footer_align .footer_menu ul li{
+  padding: 12px;
+}
+
+.contact .footer_align .footer_menu ul li a{
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F0F1F3;
+}
+
+.contact .footer_align p{
+  text-align: end;
+  color: #fff;
+}
